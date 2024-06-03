@@ -1,10 +1,10 @@
 # PASSWORD_STRENGTH_CHECKER
-CHECKS YOUR PASSWORD STRENGTH BY 2 METHODS( GUI BASED OR TERMINAL BASED)
+# CHECKS YOUR PASSWORD STRENGTH BY 2 METHODS( GUI BASED OR TERMINAL BASED)
 
 
-2 METHODS INCLUDED IN THIS REPO:
 
-(1) GUI BASED:
+
+## GUI BASED
 
   -javascript file(logic enclosed here)<br />
   -css<br />
@@ -14,7 +14,7 @@ CHECKS YOUR PASSWORD STRENGTH BY 2 METHODS( GUI BASED OR TERMINAL BASED)
   <img width="1117" alt="Screenshot 2024-05-27 at 11 09 35 AM" src="https://github.com/dinosaur21/PASSWORD_STRENGTH_CHECKER/assets/140154294/27b459ed-1a74-414a-be36-befd34d95047">
   
 
-(2) COMMAND LINE BASED:<br />
+## COMMAND LINE BASED
   -python file which needs to be run in terminal<br />
   <br />
   How to run: run python file in command line/terminal.
