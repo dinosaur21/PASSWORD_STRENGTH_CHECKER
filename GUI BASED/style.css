@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: monospace, sans-serif;
 }
 
 body {
@@ -11,44 +10,46 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #cb7171;
+  background: #070707;
 }
 
 .container {
   position: relative;
-  width: 600px;
+  width: 750px;
   height: 300px;
-  border-radius: 30px 30px 0px 0px;
-  padding: 30px;
-  background: #e79d9d;
+  background: #393a3a;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border-radius: 1px solid #bb8c8c;
   gap: 10px;
-  padding-bottom: 70px;
+  padding-bottom: 80px;
 }
+
 .container h2 {
-  padding-bottom: 10px;
+  justify-content: center;
   display: flex;
-  color: #f6f2f2;
+  padding-bottom: 10px;
+  color: #19ff20;
   font-weight: 500;
 }
 
 .container .inputArea {
   position: relative;
-  width: 100%;
+  justify-content: center;
+  padding-left: 80px;
+  width: 90%;
 }
 
 .container .inputArea input {
   position: relative;
-  width: 100%;
-  background: #dbd4d4;
-  border-radius: 30px;
+  justify-content: center;
+  width: 90%;
+  background: #64676b;
   border:none;
   outline: none;
   padding: 10px;
-  color: rgb(4, 10, 15);
+  padding-left: 20px;
+  color: rgb(255, 255, 255);
   font-size: 1.1em;
 }
 
@@ -57,8 +58,8 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 3px;
-  background: #704040;
+  height: 13px;
+  background: #0c0c0c;
 }
 
 .container .strengthMeter::before {
@@ -67,12 +68,12 @@ body {
   width: 0;
   height: 100%;
   transition: 0.5s;
-  background: rgb(10, 9, 9);
+  background: rgb(6, 6, 6);
 }
 
 .container.weak .strengthMeter::before {
   width: 20%;
-  background: rgb(239, 8, 8);
+  background: rgb(235, 10, 10);
  
 }
 
@@ -84,7 +85,7 @@ body {
 
 .container.strong .strengthMeter::before {
   width: 100%;
-  background: #0cf63e;
+  background: #76f090;
   
 }
 
@@ -97,19 +98,19 @@ body {
 }
 
 .container.container.weak .strengthMeter::after {
-  content: "STATUS: WEAK";
-  color: rgb(239, 48, 48);
+  content: "  STATUS: WEAK  ";
+  color: rgb(225, 14, 14);
   
 }
 
 .container.container.container.moderate .strengthMeter::after {
   content: " STATUS: MODERATE";
-  color: #e4e455;
+  color: #f2fd14;
 }
 
 .container.container.container.container.strong .strengthMeter::after {
   content: "STATUS :STRONG";
-  color: #159915;
+  color: #76f090;
 }
 
 .show {
@@ -118,9 +119,8 @@ body {
   right: 0;
   width: 80px;
   height: 100%;
-  background: #8a4646;
-  border: 2px solid #f6f2f2;
-  border-radius: 30px;
+  background: #0c0c0c;
+  border: 2px solid #03fb28;
   cursor: pointer;
   justify-content: center;
   align-items: center;
@@ -130,7 +130,7 @@ body {
 .show::before {
   content: "SHOW";
   font-size: 0.7em;
-  color: aliceblue;
+  color: #03fb28;
   letter-spacing: 0.15em;
 }
 
