@@ -5,13 +5,20 @@
 
 ## GUI BASED
 
+
 -JavaScript (logic)</br>
 -CSS</br>
 -HTML</br>
   
 How to run: navigate to GUI BASED branch ,download files , open html file via browser
-<img width="1000" alt="Screenshot 2024-05-27 at 11 09 35 AM" src="https://github.com/dinosaur21/PASSWORD_STRENGTH_CHECKER/assets/140154294/27b459ed-1a74-414a-be36-befd34d95047">
-  
+📝 Privacy hiding of password
+<img width="600" alt="Screenshot 2024-06-04 at 12 37 17 PM" src="https://github.com/dinosaur21/PASSWORD_STRENGTH_CHECKER/assets/140154294/e76f4b1b-97d4-41cf-8393-2419c9acf0b6">
+
+📝 Different Stages
+<img width="600" alt="Screenshot 2024-06-04 at 12 37 31 PM" src="https://github.com/dinosaur21/PASSWORD_STRENGTH_CHECKER/assets/140154294/b7e638f1-0737-4c7f-8a61-36f07f55addb">
+<img width="600" alt="Screenshot 2024-06-04 at 12 37 43 PM" src="https://github.com/dinosaur21/PASSWORD_STRENGTH_CHECKER/assets/140154294/a9c575ab-4749-4e15-8f19-8f6bd26494c6">
+<img width="600" alt="Screenshot 2024-06-04 at 12 38 06 PM" src="https://github.com/dinosaur21/PASSWORD_STRENGTH_CHECKER/assets/140154294/8e4c2178-7ffe-4535-968c-94ac07830012">
+
 
 ## COMMAND LINE BASED
 python file which needs to be run in terminal
