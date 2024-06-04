@@ -6,9 +6,9 @@
 
 ## 📌GUI BASED
 
--JavaScript (logic)
--CSS
--HTML 
+-JavaScript (logic)</br>
+-CSS</br>
+-HTML</br>
   
 How to run: navigate to GUI BASED branch ,download files , open html file via browser
 <img width="1000" alt="Screenshot 2024-05-27 at 11 09 35 AM" src="https://github.com/dinosaur21/PASSWORD_STRENGTH_CHECKER/assets/140154294/27b459ed-1a74-414a-be36-befd34d95047">
