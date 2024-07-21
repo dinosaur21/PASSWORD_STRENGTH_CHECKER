@@ -1,4 +1,4 @@
-# PASSWORD_STRENGTH_CHECKER 
+# Password Strength Checker
 
 
 
